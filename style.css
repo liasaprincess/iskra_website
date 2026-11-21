@@ -117,7 +117,7 @@ linear-gradient(0deg, rgba(0, 0, 0, 0.85),
 .hero h1 {
     font-family: var(--font-display);
     font-size: 5.5rem;
-    line-height: 1.1px;
+    line-height: 80px;
     letter-spacing: -0.09em;
     text-transform: uppercase;
     margin-bottom: 20px;
