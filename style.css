@@ -74,7 +74,7 @@ img {
     align-items: center;
     justify-content: center;
     gap: 5px;
-    curosr: pointer;
+    cursor: pointer;
 }
 
 .menu-toggle span {
@@ -83,7 +83,7 @@ img {
     transition: all 0.3s ease-in-out;
 }
 
-//***--- HERO ----***//
+/***--- HERO ----***/
 .hero {
     position: relative;
     min-height: 100vh;
