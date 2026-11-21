@@ -22,7 +22,7 @@ html {
 body {
   background: var(--color-black);
   color: var(--color-white);
-  font-family: cormorant garamond, serif;
+  font-family: var(--font-body);
   font-weight: none;
   overflow-x: hidden;
 }
@@ -113,10 +113,10 @@ img {
 }
 
 .hero h1 {
-    font-family: manrope, sans-serif;
+    font-family: var(--font-display);
     font-size: 5.5rem;
-    line-height: 1.1;
-    letter-spacing: -0.05oem;
+    line-height: 1.1pc;
+    letter-spacing: -0.09em;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
