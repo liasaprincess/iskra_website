@@ -5,7 +5,7 @@
   --color-black: #0a0a0a;
   --color-white: #f5f5f2;
   --color-grey: #888884;
-  --font-display: "Epilogue", saserif;
+  --font-display: "Manrope", sans-serif;
   --font-body: "Cormorant", serif;
 }
 
@@ -22,7 +22,7 @@ html {
 body {
   background: var(--color-black);
   color: var(--color-white);
-  font-family: var(--font-body);
+  font-family: cormorant, serif;
   overflow-x: hidden;
 }
 
@@ -111,11 +111,12 @@ img {
 }
 
 .hero h1 {
-    font-family: var(--font-display);
+    font-family: manrope, sans-serif;
     font-size: 4.5rem;
     line-height: 1.1;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.15em;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .hero-bottom {
