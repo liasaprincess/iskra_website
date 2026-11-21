@@ -117,7 +117,7 @@ img {
     font-size: 5.5rem;
     line-height: 1.1pc;
     letter-spacing: -0.09em;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 20px;
 }
 
