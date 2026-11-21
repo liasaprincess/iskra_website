@@ -99,9 +99,11 @@ img {
     position: absolute;
     inset: 0;
     background:
-    linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)
-    ),
-    #242424;
+    radial-gradient(ellipse at 70% 35%, rgba(180, 180, 180, 0.12), transparent 45%),
+linear-gradient(0deg, rgba(0, 0, 0, 0.85),
+                        rgba(0, 0, 0, 0.15)
+                        ),
+    #171817;
     z-index: 0;
 }
 
