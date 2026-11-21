@@ -113,12 +113,11 @@ img {
 
 .hero h1 {
     font-family: manrope, sans-serif;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     line-height: 1.1;
     letter-spacing: -0.05oem;
     text-transform: capitalize;
     margin-bottom: 20px;
-    font-weight: bold;
 }
 
 .hero-bottom {
