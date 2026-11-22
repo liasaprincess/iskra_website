@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const particles = document.createElement("div");
     particles.className = "intro-particles";
 
-    // Generate 500 particles
-    for (let i = 0; i < 500; i++) {
+    // Generate 80 particles
+    for (let i = 0; i < 80; i++) {
         const particle = document.createElement("span");
         particle.className = "particle";
 
