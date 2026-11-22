@@ -95,16 +95,62 @@ img {
     padding: 140px 5% 65px;
 }
 
+.hero-scene {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero-image {
     position: absolute;
     inset: 0;
     background:
-    radial-gradient(ellipse at 70% 35%, rgba(180, 180, 180, 0.12), transparent 45%),
-linear-gradient(0deg, rgba(0, 0, 0, 0.85),
-                        rgba(0, 0, 0, 0.15)
-                        ),
-    #171817;
+        radial-gradient(
+            ellipse at 70% 35%,
+            rgba(180, 180, 180, 0.12),
+            transparent 45%
+        ),
+        linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.15)
+        ),
+        #171817;
     z-index: 0;
+}
+
+.hero-wordmark {
+    position: absolute;
+    z-index: 1;
+    font-family: var(--font-display);
+    font-size: clamp(7rem, 22vw, 24rem);
+    font-weight: 500;
+    letter-spacing: -0.09em;
+    color: rgba(245, 245, 242, 0.9);
+    white-space: nowrap;
+}
+
+.hero-sphere {
+    position: absolute;
+    z-index: 2;
+    width: clamp(180px, 28vw, 420px);
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle at 35% 30%,
+            #ffffff,
+            #a5a5a5 18%,
+            #343434 48%,
+            #090909 75%
+        );
+    box-shadow:
+        inset -25px -25px 55px rgba(0, 0, 0, 0.8),
+        0 0 80px rgba(220, 220, 220, 0.12);
 }
 
 .hero-content {
