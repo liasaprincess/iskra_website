@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Opening Iskra Text
     const introText = document.createElement("h1");
-    introText.className = "intro-text";
+    introText.className = "intro-title";
     introText.textContent = "ISKRA";
 
     // Opening particles
