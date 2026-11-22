@@ -140,17 +140,24 @@ img {
     width: clamp(180px, 28vw, 420px);
     aspect-ratio: 1;
     border-radius: 50%;
+
     background:
         radial-gradient(
-            circle at 35% 30%,
-            #ffffff,
-            #a5a5a5 18%,
-            #343434 48%,
-            #090909 75%
+            circle at 32% 25%,
+            #ffffff 0%,
+            #e5e5e5 8%,
+            #858585 18%,
+            #f5f5f5 27%,
+            #555555 42%,
+            #d8d8d8 55%,
+            #252525 72%,
+            #050505 88%
         );
+
     box-shadow:
-        inset -25px -25px 55px rgba(0, 0, 0, 0.8),
-        0 0 80px rgba(220, 220, 220, 0.12);
+        inset -28px -35px 60px rgba(0, 0, 0, 0.85),
+        inset 12px 12px 30px rgba(255, 255, 255, 0.35),
+        0 0 70px rgba(220, 220, 220, 0.16);
 }
 
 .hero-content {
