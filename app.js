@@ -1,5 +1,6 @@
-<!---HERO INTRO--->
+console.log("ISKRA animation is connected!");
 
+// ** CINEMATIC INTRO** //
 document.addEventLIstender("DOMContentLoaded", function() => {
 
     <!--- Opening Intro Screen --->
