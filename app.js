@@ -1,22 +1,22 @@
 console.log("ISKRA animation is connected!");
 
 // ** CINEMATIC INTRO** //
-document.addEventLIstender("DOMContentLoaded", function() => {
+document.addEventListener("DOMContentLoaded", function() {
 
-    <!--- Opening Intro Screen --->
-    cost.introElement = document.CreateElement("div");
+    // Opening Intro Screen
+    const intro = document.createElement("div");
     intro.className = "intro-screen";
 
-    <!--- Opening Iskra Text --->
-    const.introElement = document.CreateElement("h1");
+    // Opening Iskra Text
+    const introText = document.createElement("h1");
     introText.className = "intro-text";
     introText.textContent = "ISKRA";
 
-    <!---OPENING PARTICLES---!>
-    const.particles = document.CreateElement("div");
+    // Opening particles
+    const particles = document.createElement("div");
     particles.className = "intro-particles";
 
-     // Generate 500 particles
+    // Generate 500 particles
     for (let i = 0; i < 500; i++) {
         const particle = document.createElement("span");
         particle.className = "particle";
@@ -35,7 +35,7 @@ document.addEventLIstender("DOMContentLoaded", function() => {
     }
 
     // Assemble the intro screen
-    intro.appendChild(title);
+    intro.appendChild(introText);
     intro.appendChild(particles);
     document.body.prepend(intro);
 
