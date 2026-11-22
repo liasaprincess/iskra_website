@@ -153,7 +153,7 @@ img {
             #252525 72%,
             #050505 88%
         );
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(12px);
 
     box-shadow:
